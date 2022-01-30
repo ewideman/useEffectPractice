@@ -17,7 +17,7 @@ function App() {
 
 //on first render/whenever the dependacy changes 
   useEffect(() => {
-    console.log('the name changed')
+    console.log('name changed')
   }, [name]);
 
   //clean up code before running
