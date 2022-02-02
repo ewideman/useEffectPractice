@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     window.addEventListener("resize", updateWindowWidth);
     return () => {
-      window.removeEventListener("resize", updateWindowWidth);
+      window.removeEventListener("ressize", updateWindowWidth);
     };
 
   }, []);
