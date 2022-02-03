@@ -12,7 +12,7 @@ function App() {
   
 // on first render/mount only! - componentDidMount Alternative
   useEffect(() => {
-  console.log('the component Mounted')
+  console.log('the Component Mounted')
   }, []); 
 
 //on first render/whenever the dependacy changes 
